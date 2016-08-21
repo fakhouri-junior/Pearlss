@@ -21,18 +21,18 @@
   padding-top: 105px;
   padding-bottom: 0;
 }
-
+/*
 #myCarousel {
 height: fixed;
-}
+}*/
 
 .carousel-caption {
   position: absolute;
-  background-color: rgba(14,118,188,0.81);
+  background-color: rgba(140, 140, 140, 0.5);
   opacity: 1;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: 3%;
+  right: 60%;
+  bottom: 10%;
 }
 
 #mainContainer {
@@ -249,4 +249,38 @@ height: fixed;
 @media only screen and (max-width: 766px) {
 .collapsing ul li a, .in ul li a {color: white !important;}
 .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+}
+
+/*new carousel*/
+#myCarousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+
+#myCarousel .list-group {
+	position:absolute;
+	top:0;
+	right:0;
+  padding-right: initial;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active {
+	background-color:#eee;
+}
+
+@media (min-width: 992px) {
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;}
+}
+@media (max-width: 991px) {
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;}
 }
