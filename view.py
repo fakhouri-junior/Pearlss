@@ -14,7 +14,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def homePage():
-    return "Hello World"
+    return render_template('index1.html')
 
 
 
