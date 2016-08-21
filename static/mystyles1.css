@@ -284,3 +284,6 @@ height: fixed;
 	.carousel-caption p,
 	#myCarousel .list-group {display:none;}
 }
+.item .avtice div {
+  max-height: 100%;
+}
