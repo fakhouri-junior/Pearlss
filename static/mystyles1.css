@@ -244,3 +244,9 @@ height: fixed;
   width: 80%;
   margin: auto;
 }
+
+/*change collapsed text color, navbar */
+@media only screen and (max-width: 766px) {
+.collapsing ul li a, .in ul li a {color: white !important;}
+.collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+}
