@@ -353,3 +353,9 @@ height: fixed;
         width /**/: 72px;
         height /**/: 72px;
     }
+
+    /*navbar buttons when collapsed*/
+@media only screen and (max-width: 766px) {
+.collapsing ul li a, .in ul li a {color: #000066!important;}
+.collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+}
