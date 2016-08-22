@@ -22,9 +22,7 @@
   padding-bottom: 0;
 }
 
-#myCarousel {
-height: fixed;
-}
+
 
 .carousel-caption {
   position: absolute;
@@ -358,4 +356,37 @@ height: fixed;
 @media only screen and (max-width: 766px) {
 .collapsing ul li a, .in ul li a {color: #000066!important;}
 .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+}
+
+/*our services slider */
+#myCarousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+
+#myCarousel .list-group {
+	position:absolute;
+	top:0;
+	right:0;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active {
+	background-color:#eee;
+}
+
+@media (min-width: 992px) {
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;}
+}
+@media (max-width: 991px) {
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;}
 }
