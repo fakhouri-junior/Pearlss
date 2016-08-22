@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="478c2a3f-f86e-4a4e-85de-70f53b6a4fda" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/mystyles1.css" afterPath="$PROJECT_DIR$/static/mystyles1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index1.html" afterPath="$PROJECT_DIR$/templates/index1.html" />
     </list>
     <ignored path="Pearlss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="index1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="22" column="99" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
+            <state relative-caret-position="111">
+              <caret line="158" column="76" selection-start-line="158" selection-start-column="76" selection-end-line="158" selection-end-column="76" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -538,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471894471791</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;collapsed menu button&quot;">
+      <created>1471895620355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471895620355</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,7 +602,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing push" />
     <MESSAGE value="testing gallery slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing gallery slider" />
+    <MESSAGE value="&quot;collapsed menu button&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;collapsed menu button&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -646,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="22" column="99" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
+        <state relative-caret-position="111">
+          <caret line="158" column="76" selection-start-line="158" selection-start-column="76" selection-end-line="158" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
