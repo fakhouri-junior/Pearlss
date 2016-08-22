@@ -16,7 +16,6 @@
 </head>
 <body>
 
-
 <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,7 +24,7 @@
 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar" ></span>
+        <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
@@ -36,11 +35,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <nav role="navigation">
       <ul id="navbar-buttons" class="menu nav navbar-nav">
-        <li class="hvr-underline-reveal"><a href="#">HOME</a></li>
-        <li class="hvr-underline-reveal"><a href="#">PROJECT</a></li>
-        <li class="hvr-underline-reveal"><a href="#">SERVICES</a></li>
-        <li class="hvr-underline-reveal"><a href="#">ABOUT US</a></li>
-        <li class="hvr-underline-reveal"><a href="#">CONTACTS</a></li>
+        <li><a href="#" class="hvr-sweep-to-top">HOME</a></li>
+        <li><a href="#">PROJECT</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACTS</a></li>
       </ul>
     </nav>
     </div><!-- /.navbar-collapse -->
@@ -48,75 +47,54 @@
 </nav>
 
 <div class="jumbotron">
-  <div class="container">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <!-- <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol> -->
 
-          <div class="item active">
-            <img src="../static/images/inter.png" width="760" height="400">
-             <div class="carousel-caption">
-              <h3><a href="#">Interior Design</a></h3>
-              <p>Shape a new experience of the interior space through the manipulation of the spatial volume. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">View Details</a></p>
-            </div>
-          </div><!-- End Item -->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="../static/images/1.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Whatever</h3>
+        <img src="../static/images/line.png"/>
+        <p>Located in the center of the banks area in Kawthar area next to “Best Way Mall” and 10 min away from Hurghada airport..</p>
+      </div>
+    </div>
 
-           <div class="item">
-            <img src="../static/images/false.png" width="760" height="400">
-             <div class="carousel-caption">
-              <h3><a href="#">False Ceiling</a></h3>
-              <p>Offer better aesthetics and design, provide thermal insulation, and eliminate visual clutter of wires and services <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">View Details</a></p>
-            </div>
-          </div><!-- End Item -->
+    <div class="item">
+      <img src="../static/images/1.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <img src="../static/images/line.png"/>
+        <p>TLocated in the center of the banks area in Kawthar area next to “Best Way Mall” and 10 min away from Hurghada airport.</p>
+      </div>
+    </div>
 
-          <div class="item">
-            <img src="../static/images/partition.png" width="760" height="400">
-             <div class="carousel-caption">
-              <h3><a href="#">Drywall Partition</a></h3>
-              <p>Drywalls by all means are the preferred way to partition any interior in homes, hotels, industry, theaters, and even in schools. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">View Details</a></p>
-            </div>
-          </div><!-- End Item -->
-
-          <div class="item">
-            <img src="../static/images/raised.png">
-             <div class="carousel-caption">
-              <h3><a href="#">Raised Access Floors</a></h3>
-              <p>Designed to meet the most demanding of new build or refurbishment briefs, providing a cost effective and flexible solution. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">View Details</a></p>
-            </div>
-          </div><!-- End Item -->
-
-          <div class="item">
-            <img src="http://placehold.it/760x400/dddddd/333333">
-             <div class="carousel-caption">
-              <h4><a href="#">tempor invidunt ut labore et dolore magna aliquyam erat</a></h4>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
-            </div>
-          </div><!-- End Item -->
-
-        </div><!-- End Carousel Inner -->
-
-
-      <ul class="list-group col-sm-4">
-        <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active"><h4>Interior Design</h4></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="list-group-item"><h4>False Ceiling</h4></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="list-group-item"><h4>Drywall Partition</h4></li>
-        <li data-target="#myCarousel" data-slide-to="3" class="list-group-item"><h4>Raised Access Floors</h4></li>
-        <li data-target="#myCarousel" data-slide-to="4" class="list-group-item"><h4>tempor invidunt ut labore et dolore magna aliquyam erat</h4></li>
-      </ul>
-
-        <!-- Controls -->
-        <div class="carousel-controls">
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div>
-
-      </div><!-- End Carousel -->
-  </div></div>
+    <!-- <div class="item">
+      <img src="img_flower.jpg" alt="Flower">
+      <div class="carousel-caption">
+        <h3>Flowers</h3>
+        <img src="line.png"/>
+        <p>Beatiful flowers in Kolymbari, Crete.</p>
+      </div>
+    </div> -->
+<!--
+    <div class="item">
+      <img src="img_flower2.jpg" alt="Flower">
+      <div class="carousel-caption">
+        <h3>Flowers</h3>
+        <p>Beatiful flowers in Kolymbari, Crete.</p>
+      </div>
+    </div>
+  </div> -->
+</div></div></div>
 
 <div id="mainContainer" class="container">
   <div class="row">
@@ -166,40 +144,84 @@
       <h2> Our services </h2>
         <img src="../static/images/line.png" />
       <p style="margin-bottom: 50px;">An enterprising approach to commercial real estate services Houston and around the world</p>
-    </div>
+    </div></div>
 
     <div class="container">
-      <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <figure>
-        <img class="img-circle img-responsive"  src="../static/images/c1.jpg" />
-        <figcaption class="figCaption">smfsdfsk</figcaption>
-        </figure>
-      </div>
+      <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 456px; overflow: hidden; visibility: hidden; background-color: #24262e;">
+          <!-- Loading Screen -->
+          <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+              <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+              <div style="position:absolute;display:block;background:url('../static/images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+          </div>
+          <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 356px; overflow: hidden;">
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/01.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-01.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/02.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-02.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/03.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-03.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/04.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-04.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/05.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-05.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/06.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-06.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/07.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-07.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/08.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-08.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/09.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-09.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/10.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-10.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/11.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-11.jpg" />
+              </div>
+              <div data-p="144.50" style="display: none;">
+                  <img data-u="image" src="../static/images/12.jpg" />
+                  <img data-u="thumb" src="../static/images/thumb-12.jpg" />
+              </div>
+              <a data-u="add" href="http://www.jssor.com/demos/image-gallery.slider" style="display:none">Image Gallery</a>
 
-
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <figure>
-        <img class="img-circle img-responsive"  src="../static/images/c1.jpg" />
-        <figcaption class="figCaption">smfsdfsk</figcaption>
-        </figure>
+          </div>
+          <!-- Thumbnail Navigator -->
+          <div data-u="thumbnavigator" class="jssort01" style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
+              <!-- Thumbnail Item Skin Begin -->
+              <div data-u="slides" style="cursor: default;">
+                  <div data-u="prototype" class="p">
+                      <div class="w">
+                          <div data-u="thumbnailtemplate" class="t"></div>
+                      </div>
+                      <div class="c"></div>
+                  </div>
+              </div>
+              <!-- Thumbnail Item Skin End -->
+          </div>
+          <!-- Arrow Navigator -->
+          <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
+          <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
       </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <figure>
-        <img class="img-circle img-responsive"  src="../static/images/c1.jpg" />
-        <figcaption class="figCaption">smfsdfsk</figcaption>
-        </figure>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <figure>
-        <img class="img-circle img-responsive" src="../static/images/c1.jpg" />
-        <figcaption class="figCaption">smfsdfsk</figcaption>
-        </figure>
-      </div>
-    </div>
-    </div>
   </div>
 
   <div id="aboutUs">
@@ -324,38 +346,77 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../static/js/bootstrap.min.js"></script>
 
+<!-- gallery -->
+<script type="text/javascript" src="../static/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../static/js/jssor.slider-21.1.5.mini.js"></script>
+
 <script>
+jQuery(document).ready(function ($) {
 
-$(document).ready(function(){
+    var jssor_1_SlideshowTransitions = [
+      {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+      {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+    ];
 
-	var clickEvent = false;
-	$('#myCarousel').carousel({
-		interval:   4000
-	}).on('click', '.list-group li', function() {
-			clickEvent = true;
-			$('.list-group li').removeClass('active');
-			$(this).addClass('active');
-	}).on('slid.bs.carousel', function(e) {
-		if(!clickEvent) {
-			var count = $('.list-group').children().length -1;
-			var current = $('.list-group li.active');
-			current.removeClass('active').next().addClass('active');
-			var id = parseInt(current.data('slide-to'));
-			if(count == id) {
-				$('.list-group li').first().addClass('active');
-			}
-		}
-		clickEvent = false;
-	});
-})
+    var jssor_1_options = {
+      $AutoPlay: true,
+      $SlideshowOptions: {
+        $Class: $JssorSlideshowRunner$,
+        $Transitions: jssor_1_SlideshowTransitions,
+        $TransitionsOrder: 1
+      },
+      $ArrowNavigatorOptions: {
+        $Class: $JssorArrowNavigator$
+      },
+      $ThumbnailNavigatorOptions: {
+        $Class: $JssorThumbnailNavigator$,
+        $Cols: 10,
+        $SpacingX: 8,
+        $SpacingY: 8,
+        $Align: 360
+      }
+    };
 
-$(window).load(function() {
-    var boxheight = $('#myCarousel .carousel-inner').innerHeight();
-    var itemlength = $('#myCarousel .item').length;
-    var triggerheight = Math.round(boxheight/itemlength+1);
-	$('#myCarousel .list-group-item').outerHeight(triggerheight);
+    var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+    //responsive code begin
+    //you can remove responsive code if you don't want the slider scales while window resizing
+    function ScaleSlider() {
+        var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+        if (refSize) {
+            refSize = Math.min(refSize, 800);
+            jssor_1_slider.$ScaleWidth(refSize);
+        }
+        else {
+            window.setTimeout(ScaleSlider, 30);
+        }
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+    //responsive code end
 });
-
 </script>
 </body>
 </html>
