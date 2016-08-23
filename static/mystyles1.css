@@ -72,6 +72,10 @@
   bottom: 0;
 }
 
+.blueBackground{
+    background-color: #0d70b7;
+    color: #f1f1f1;
+}
 
 @media screen and (max-width: 600px) {
   .carousel-caption {

@@ -17,6 +17,9 @@ def homePage():
     return render_template('index1.html')
 
 
+@app.route('/test')
+def showTest():
+    return render_template('test.html')
 
 if __name__ == '__main__':
   app.secret_key = 'super_secret_key'
