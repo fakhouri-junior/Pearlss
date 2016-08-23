@@ -20,8 +20,12 @@
 .jumbotron {
   padding-top: 105px;
   padding-bottom: 0;
+    background-color: white;
 }
 
+.carousel {
+    margin-top: 50px;
+}
 
 
 .carousel-caption {
