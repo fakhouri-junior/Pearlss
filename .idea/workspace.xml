@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478c2a3f-f86e-4a4e-85de-70f53b6a4fda" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/thumb-14.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/mystyles1.css" afterPath="$PROJECT_DIR$/static/mystyles1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index1.html" afterPath="$PROJECT_DIR$/templates/index1.html" />
     </list>
     <ignored path="Pearlss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -387,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471900187273</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;adding vertical gallery slider&quot;">
+      <created>1471957968454</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1471957968454</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -450,7 +453,8 @@
     <MESSAGE value="&quot;adding images&quot;" />
     <MESSAGE value="&quot;adding js files&quot;" />
     <MESSAGE value="&quot;adding js service slider&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;adding js service slider&quot;" />
+    <MESSAGE value="&quot;adding vertical gallery slider&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;adding vertical gallery slider&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
