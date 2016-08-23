@@ -93,13 +93,14 @@
   }
 }
 
+/* Blue Div*/
 .services {
-  width:100%;
   height: auto;
   background-color: #0E76BC;
   margin-top: 40px;
+  margin-bottom: 10px;
+  padding: 20px 0;
   color: white;
-  padding-bottom: 50px;
 }
 
 .center{
@@ -264,7 +265,7 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
-    background: url('img/a17.png') no-repeat;
+    background: url('../static/images/a17.png') no-repeat;
     overflow: hidden;
 }
 .jssora05l { background-position: -10px -40px; }
@@ -314,7 +315,7 @@
     height: 62px;
     border: #000 2px solid;
     box-sizing: content-box;
-    background: url('img/t01.png') -800px -800px no-repeat;
+    background: url('../static/images/t01.png') -800px -800px no-repeat;
     _background: none;
 }
 
@@ -378,6 +379,7 @@
 	position:absolute;
 	top:0;
 	right:0;
+  padding-right: 0;
 }
 #myCarousel .list-group-item {
 	border-radius:0px;
