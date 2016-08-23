@@ -1,22 +1,34 @@
 import numpy as np
 import PIL.Image
-import scipy.misc
+from scipy.misc import imread, imresize, imsave, imshow
 
 def load_image(path, height, width, mode='RGB'):
-    """
-    Load an image from disk
-    Returns an np.ndarray (channels x width x height)
-    Arguments:
-    path -- path to an image on disk
-    width -- resize dimension
-    height -- resize dimension
-    Keyword arguments:
-    mode -- the PIL mode that the image should be converted to
-        (RGB for color or L for grayscale)
-    """
-    image = PIL.Image.open(path)
-    image = image.convert(mode)
-    image = np.array(image)
-    # squash
-    image = scipy.misc.imresize(image, (height, width), 'bilinear')
+    image = imread(path)
+    image = imresize(image, (height,width))
     return image
+
+# CHANGE THE PATH IF YOU WANT TO USE IT AND DELETE THOSE
+image = load_image('/home/salim/bassam/in-hands/adac.jpg',300,370)
+imsave('/home/salim/bassam/in-hands/adac300.jpg',image)
+
+image = load_image('/home/salim/bassam/in-hands/central.jpg',300,370)
+imsave('/home/salim/bassam/in-hands/central300.jpg',image)
+
+image = load_image('/home/salim/bassam/in-hands/adac.jpg',300,370)
+imsave('/home/salim/bassam/in-hands/adac300.jpg',image)
+
+image = load_image('/home/salim/bassam/in-hands/mafraq_main.jpg',300,370)
+imsave('/home/salim/bassam/in-hands/mafraq_main300.jpg',image)
+
+image = load_image('/home/salim/bassam/in-hands/future.jpg',300,370)
+imsave('/home/salim/bassam/in-hands/future300.jpg',image)
+
+image = load_image('/home/salim/bassam/in-hands/saraya.jpg',300,370)
+imsave('/home/salim/bassam/in-hands/saraya300.jpg',image)
+
+
+
+
+
+
+
