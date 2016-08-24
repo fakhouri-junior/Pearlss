@@ -20,7 +20,8 @@
 .jumbotron {
   padding-top: 105px;
   padding-bottom: 0;
-    background-color: white;
+  background-color: white;
+  margin-bottom: auto;
 }
 
 .carousel {
@@ -34,10 +35,6 @@
   opacity: 1;
   left: 0;
   right: 0;
-}
-
-#our-projects {
-  padding-top: 100px;
 }
 
  img.width-control{
@@ -105,8 +102,17 @@
 .services {
   height: auto;
   background-color: #0E76BC;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  color: white;
+}
+
+.gallery {
+    height: auto;
+  background-color: #0E76BC;
+  margin-top: 45px;
+  margin-bottom: 30px;
   padding: 20px 0;
   color: white;
 }
@@ -201,10 +207,6 @@
 
 .icon-background
 {
-  color: white;
-}
-
-.blueBack p,h2{
   color: white;
 }
 
