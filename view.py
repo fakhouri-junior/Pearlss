@@ -26,11 +26,13 @@ mail = Mail(app)
 @app.route('/')
 @app.route('/index')
 def homePage():
+
     return render_template('index1.html')
 
 
 @app.route('/test')
 def showTest():
+
     return render_template('test.html')
 
 
@@ -64,7 +66,7 @@ def sendEmail():
         'Thank you'
         mail.send(new_msg)
 
-        print "got it"
+        flash('Your message has been sent')
         return redirect(url_for('homePage'))
     else:
         return "REJECTED"

@@ -47,8 +47,24 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+
+
+
 <div id="our-services" class="jumbotron">
   <div class="container">
+      <div class = 'flash'>
+		      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+
+        <ul>
+        {% for message in messages %}
+            <li> <strong> {{ message }} </strong> </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    {% endwith %}
+
+     </div>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <!-- Wrapper for slides -->
