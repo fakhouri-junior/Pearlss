@@ -8,7 +8,9 @@
 }
 
 #navbar ul.menu {
-  float: right;
+    float: right;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
 }
 
 .navbar-collapse {
@@ -35,6 +37,11 @@
   opacity: 1;
   left: 0;
   right: 0;
+    cursor:default
+}
+
+.carousel-caption h3 {
+    color: rgba(14,118,188,0.81);
 }
 
  img.width-control{
@@ -48,6 +55,7 @@
 .property-container {
   position: relative;
   overflow: hidden;
+    cursor:pointer
 }
 
 .property .img-cover{
@@ -106,6 +114,8 @@
   margin-bottom: 30px;
   padding: 20px 0;
   color: white;
+        font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
 }
 
 .gallery {
@@ -115,11 +125,19 @@
   margin-bottom: 30px;
   padding: 20px 0;
   color: white;
+        font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
 }
 
 .center{
   text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
 
+.text-font {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
 }
 .center img {
   width: auto;
@@ -394,6 +412,8 @@
 	top:0;
 	right:0;
   padding-right: 0;
+        font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
 }
 #myCarousel .list-group-item {
 	border-radius:0px;
