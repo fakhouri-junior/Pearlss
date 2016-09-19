@@ -12,6 +12,12 @@ from flask_mail import Mail, Message
 
 app = Flask(__name__)
 
+app.config['MAIL_SERVER']='smtp.zoho.com'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USERNAME'] = 'no-reply@pearlsgm.com'
+app.config['MAIL_PASSWORD'] = 'noreply##!!'
+app.config['MAIL_USE_TLS'] = False
+app.config['MAIL_USE_SSL'] = True
 
 mail = Mail(app)
 
@@ -39,14 +45,25 @@ def sendEmail():
             subject = request.form['subject']
         if request.form['message']:
             message = request.form['message']
-        '''
+        admin_message = 'Hello this is  Admin, A user has contacted you with the following information, please reply\n' \
+                        'name: '+name+'\n' \
+                        'email: '+email+'\n' \
+                        'subject: '+subject+'\n'\
+                        'message: '+message+'\n'
 
-        msg = Message(sender=email,
-                      recipients=['ceaserfs3@gmail.com'],
-                      body=message,
-                      subject=subject)
+
+
+        msg = Message('Hello', sender = 'no-reply@pearlsgm.com', recipients = ['info@pearlsgm.com'])
+        msg.body = admin_message
         mail.send(msg)
-        '''
+
+        new_msg = Message('Hello', sender='no-reply@pearlsgm.com', recipients = [email])
+        new_msg.body = 'Please Do not Reply\n' \
+        'This is an automatic response\n' \
+        'The staff will contact you soon\n' \
+        'Thank you'
+        mail.send(new_msg)
+
         print "got it"
         return redirect(url_for('homePage'))
     else:
