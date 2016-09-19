@@ -8,17 +8,8 @@ def load_image(path, height, width, mode='RGB'):
     return image
 
 # CHANGE THE PATH IF YOU WANT TO USE IT AND DELETE THOSE
-image = load_image('/home/salim/bassam/completed/mussafah.jpg',300,370)
-imsave('/home/salim/bassam/completed/mussafah300.jpg',image)
-
-
-image = load_image('/home/salim/bassam/completed/saadiyat.jpg',300,370)
-imsave('/home/salim/bassam/completed/saadiyat300.jpg',image)
-
-
-
-image = load_image('/home/salim/bassam/completed/tourist.jpg',300,370)
-imsave('/home/salim/bassam/completed/tourist300.jpg',image)
+image = load_image('/home/salim/bassam/external.jpg',400,760)
+imsave('/home/salim/bassam/external760.jpg',image)
 
 
 
