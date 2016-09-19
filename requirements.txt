@@ -2,7 +2,6 @@ appnope==0.1.0
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
-sblinker==1.4
 certifi==2015.11.20.1
 chardet==2.3.0
 click==6.6
