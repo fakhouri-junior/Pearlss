@@ -40,7 +40,7 @@
         <li><a href="#projects" class="hvr-underline-from-left">PROJECT</a></li>
           <li><a href="#our-gallery" class="hvr-underline-from-left">GALLERY</a></li>
         <li><a href="#about-us" class="hvr-underline-from-left">ABOUT US</a></li>
-        <li><a href="#" class="hvr-underline-from-left">CONTACTS</a></li>
+        <li><a href="#contact-us" class="hvr-underline-from-left">CONTACTS</a></li>
       </ul>
     </nav>
     </div><!-- /.navbar-collapse -->
@@ -678,8 +678,12 @@
       </div>
   </div>
 
-  <div class="blueBack">
-    <div class="container">
+
+
+<!-- https://www.google.com/maps/place/24%C2%B029'02.6%22N+54%C2%B021'35.9%22E/@24.4840542,54.3588777,18z/data=!4m5!3m4!1s0x0:0x0!8m2!3d24.4840556!4d54.3599722-->
+
+  <div class="blueBack" id="contact-us">
+    <div class="container" >
     <div class="center">
       <h2>FEEL FREE TO ASK US ANYTHING</h2>
       <p>Contact us</p>
@@ -694,7 +698,7 @@
           <i class="fa fa-home fa-stack-1x"></i>
         </span>
           <p>Address</p>
-          <p>Mohamed Saed St., Elkawthar, Infront of Metro Market, El King Building, Second Floor, Apartment No. 8</p>
+          <p>United Arab Emirates, Abu Dhabi</p>
       </div>
 
       <div class="center col-xs-12 col-sm-12 col-md-4">
@@ -703,7 +707,7 @@
           <i class="fa fa-envelope-o fa-stack-1x"></i>
         </span>
           <p>Mail</p>
-          <p>info@egyptian-swedish.com</p>
+          <p>info@pearlsgm.com</p>
       </div>
 
       <div class="center col-xs-12 col-sm-12 col-md-4">
@@ -712,39 +716,41 @@
           <i class="fa fa-phone fa-stack-1x"></i>
         </span>
           <p>Phone</p>
-          <p>Ahmed Mohamaden +20 110 050 2231</p>
+          <p>+971 55 1665232</p>
+          <p>+971 50 6149692</p>
       </div>
     </div></div>
+    <form action="{{url_for('sendEmail')}}" method="post">
+          <div id="sendMessage">
+            <div class="row row-content subscribeForm">
+              <div class="col-xs-4 col-sm-4 col-md-4">
+                <input type="text" class="form-control" placeholder="Your name*" name="name" required>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-4">
+                <input type="email" class="form-control"  placeholder="Your e-mail address*" name="email" required>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-4">
+                <input type="text" class="form-control" placeholder="Subject*" name="subject" required>
+              </div>
+            </div>
+            <div class="row row-content subscribeForm">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Message*" name="message" required></textarea>
+              </div>
+            </div>
 
-      <div id="sendMessage">
-        <div class="row row-content subscribeForm">
-          <div class="col-xs-4 col-sm-4 col-md-4">
-            <input type="text" class="form-control" placeholder="Your name*">
-          </div>
-          <div class="col-xs-4 col-sm-4 col-md-4">
-            <input type="email" class="form-control"  placeholder="Your e-mail address*">
-          </div>
-          <div class="col-xs-4 col-sm-4 col-md-4">
-            <input type="text" class="form-control" placeholder="Subject*">
-          </div>
-        </div>
-        <div class="row row-content subscribeForm">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Message*"></textarea>
-          </div>
-        </div>
+            <div class="row row-content">
+              <div class="center col-xs-12 col-sm-12 col-md-12">
+              <input class="btn btn-success mymargin" type="submit" value="Send Message">
+            </div>
 
-        <div class="row row-content">
-          <div class="center col-xs-12 col-sm-12 col-md-12">
-          <input type="button" value="Send Message">
         </div>
-
-    </div>
-  </div>
+      </div>
+    </form>
 </div>
 
 <div id="footer">
-  <p>© Copyright 2016 Egyptian Swedish. Made with ♥ @ Pixels Media Studio</p>
+  <p>© Copyright 2016 Pearls. Made with ♥ @ Pixels Media Studio</p>
 </div>
 
 <script src="../static/jquery/dist/jquery.min.js"></script>
