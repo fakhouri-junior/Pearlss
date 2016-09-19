@@ -229,7 +229,17 @@
 }
 
 .mymargin{
-    margin: 10px;
+    border: 1px solid white;
+  background-color: white;
+  width: 31%;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #161F32;
+    margin: 20px auto 30px;
+    padding: 20px 30px;
+}
+
+.mymargin:hover{
+     border: 1px solid #161F32;
 }
 
 #sendMessage {
@@ -257,6 +267,10 @@
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 20px 30px;
+}
+
+#exampleTextArea {
+    resize: none;
 }
 
 
