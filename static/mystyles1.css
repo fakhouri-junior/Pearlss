@@ -185,6 +185,9 @@
   margin-bottom: 40px;
 }
 
+.input-margin {
+    margin-bottom: 20px;
+}
 
 .subscribeForm input[type=button] {
     background-color: #161F32;
@@ -400,18 +403,15 @@
     width /**/: 99px;
     height /**/: 66px;
 }
-
-
-
-
-
-
-    /*navbar buttons when collapsed*/
+/*navbar buttons when collapsed*/
 @media only screen and (max-width: 766px) {
 .collapsing ul li a, .in ul li a {color: #000066!important;}
 .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
 }
 
+@media only screen and (max-width: 636px) {
+    .mymargin {  width:70% ;}
+}
 /*our services slider */
 #myCarousel .carousel-caption {
     left:0;
